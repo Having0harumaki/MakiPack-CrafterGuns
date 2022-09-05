@@ -2,7 +2,7 @@
 #> ハンドガンを撃つ
 
 #> 弾を召喚
-    summon armor_stand ~ ~ ~ {Tags:["bullet.handgun"]}
+    summon armor_stand ~ ~ ~ {Tags:["bullet.handgun","mg.bullet"],Invisible:1b,Marker:1b}
 
 #> 音を出す
     playsound gun.handgun.shot record @a ~ ~ ~ 0.35 1

@@ -6,6 +6,9 @@
     execute unless block ~ ~ ~ #raycast:air run scoreboard players set @s makigun.bullet 0
     execute if score .itt raycast matches 0 run scoreboard players set @s makigun.bullet 0
 
+#> パーティクル
+    particle crit ~ ~1.5 ~ 0 0 0 0 5 force @a
+
 #> 弾丸を前に進める
     scoreboard players remove @s makigun.bullet 1
     tp @s ^ ^ ^0.25
