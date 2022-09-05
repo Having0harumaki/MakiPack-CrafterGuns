@@ -12,7 +12,7 @@
 
 #> 銃から弾を減らす
     #> 現在の銃の弾を取得
-    execute store result score ammo makigun.temp run data get entity @s SelectedItem.tag.ammo
+    scoreboard players remove ammo makigun.temp 1
     execute store result storage mgtemp: damage int 1.0 run scoreboard players get ammo makigun.temp
     #> item modifire
     item modify entity @s weapon.mainhand makigun:gun/handgun
