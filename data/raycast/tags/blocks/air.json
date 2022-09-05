@@ -2,7 +2,7 @@
   "values":[
 	"minecraft:air",
 	"#minecraft:buttons",
-	"#minecraft:carpets",
+	"#minecraft:wool_carpets",
 	"#minecraft:candles",
 	"minecraft:cave_air",
 	"#minecraft:cave_vines",

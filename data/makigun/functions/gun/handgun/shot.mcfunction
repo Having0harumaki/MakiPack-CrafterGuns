@@ -1,8 +1,11 @@
 #> makigun:gun/handgun/shot
 #> ハンドガンを撃つ
 
-#> 弾を召喚
-    summon armor_stand ~ ~ ~ {Tags:["bullet.handgun","mg.bullet"],Invisible:1b,Marker:1b}
+#> 弾を召喚(スコア : 1マス-> 4 )
+    summon armor_stand ~ ~ ~ {Tags:["bullet.handgun","mg.bullet","new"],Invisible:1b,Marker:1b}
+    scoreboard players set @e[type=armor_stand,tag=new] makigun.bullet 80
+    tp @e[type=armor_stand,tag=new] @s
+    tag @e[type=armor_stand,tag=new] remove new
 
 #> 音を出す
     playsound gun.handgun.shot record @a ~ ~ ~ 0.35 1
