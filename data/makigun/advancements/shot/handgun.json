@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "shot": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{handgun:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "makigun:gun/handgun/shot"
+    }
+  }
+  
