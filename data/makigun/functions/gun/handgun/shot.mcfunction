@@ -17,5 +17,3 @@
     #> item modifire
     item modify entity @s weapon.mainhand makigun:gun/handgun
 
-#> reset
-    advancement revoke @s only makigun:shot/handgun

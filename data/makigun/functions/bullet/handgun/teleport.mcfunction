@@ -11,7 +11,7 @@
 
 #> 弾丸を前に進める
     scoreboard players remove @s makigun.bullet 1
-    tp @s ^ ^ ^0.25
+    tp ^ ^ ^0.25
 
 #> 弾削除
     execute if entity @s[scores={makigun.bullet=..0}] run kill @s

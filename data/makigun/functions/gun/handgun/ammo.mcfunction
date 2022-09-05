@@ -9,4 +9,6 @@
     execute if score ammo makigun.temp matches 1.. run function makigun:gun/handgun/shot
 
 #> reset
-    scoreboard players reset ammo makigun.temp
+    #scoreboard players reset ammo makigun.temp
+    #data remove storage mgtemp: damage
+    advancement revoke @s only makigun:shot/handgun
