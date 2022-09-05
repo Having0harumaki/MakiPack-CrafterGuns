@@ -2,7 +2,7 @@
 # @internal
 # @load minecraft:load
 
-#> 
+#>
 # @within makigun:**
 #> holder
  #define storage mgtemp:

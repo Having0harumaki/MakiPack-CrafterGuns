@@ -7,3 +7,6 @@
 
 #> 発射可能
     execute if score ammo makigun.temp matches 1.. run function makigun:gun/handgun/shot
+
+#> reset
+    scoreboard players reset ammo makigun.temp
