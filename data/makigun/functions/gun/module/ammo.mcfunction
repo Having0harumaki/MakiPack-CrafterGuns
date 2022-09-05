@@ -1,5 +1,5 @@
-#> makigun:gun/handgun/ammo
-#> ハンドガンの残弾を確認
+#> makigun:gun/module/ammo
+#> 銃の残弾を確認
     execute store result score ammo makigun.temp run data get entity @s SelectedItem.tag.ammo
 
 #> 発射不可能
