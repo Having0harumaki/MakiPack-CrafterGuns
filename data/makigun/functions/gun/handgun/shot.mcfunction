@@ -13,3 +13,6 @@
     execute store result storage mgtemp: damage int 1.0 run scoreboard players get ammo makigun.temp
     #> item modifire
     item modify entity @s weapon.mainhand makigun:gun/handgun
+
+#> reset
+    advancement revoke @s only makigun:shot/handgun
