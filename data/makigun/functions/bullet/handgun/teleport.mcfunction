@@ -15,9 +15,7 @@
     execute as @s at @s run tp ^ ^ ^0.25
 
 #> ヒット判定
-    execute positioned ~-0.125 ~-0.125 ~-0.125 as @e[type=villager,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run say HIT
-    execute positioned ~-0.125 ~-0.125 ~-0.125 as @e[type=villager,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] anchored eyes positioned ^ ^ ^ positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[type=marker,tag=bullet.handgun,dx=0] run say 頭HIT
-    execute positioned ~-0.125 ~-0.125 ~-0.125 as @e[type=villager,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] at @s run kill @e[type=marker,tag=bullet.handgun,limit=1,sort=nearest]
+    execute positioned ~-0.125 ~-0.125 ~-0.125 as @e[type=villager,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] at @s run function makigun:bullet/handgun/hit
 
 #> 弾削除
     execute if entity @s[scores={makigun.bullet=..0}] run kill @s
