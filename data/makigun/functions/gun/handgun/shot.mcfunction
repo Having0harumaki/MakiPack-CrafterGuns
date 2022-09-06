@@ -2,7 +2,7 @@
 #> ハンドガンを撃つ
 
 #> 弾を召喚(スコア : 1マス-> 4 )
-    summon marker ~ ~ ~ {Tags:["raycaster","bullet.handgun","mg.bullet","new"]}
+    summon marker ~ ~ ~ {Tags:["raycaster","bullet.handgun","mg.bullet","new"],data:{bullet:{BodyDamage:}}}
     scoreboard players set @e[type=marker,tag=new] makigun.bullet 80
 
 #> 向きを直す
