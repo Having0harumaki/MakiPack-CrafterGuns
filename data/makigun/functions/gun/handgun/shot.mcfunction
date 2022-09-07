@@ -24,5 +24,12 @@
 #> 発砲クールタイム
     scoreboard players set @s makigun.cooltime 5
 
-#> 反動
+#> 連射検知
+    execute if entity @s[scores={makigun.recoil=1..}] run scoreboard players add @s makigun.recoil_2 1
+    scoreboard players set @s makigun.recoil 10
 
+#> 反動
+    # ハンドガンに反動はない
+
+#> 撃ち続けていたら弾を散らばらせる
+    execute unless entity @s[predicate=makigun:player_properties/sneak] if entity @s[scores={makigun.recoil_2=2..}] run

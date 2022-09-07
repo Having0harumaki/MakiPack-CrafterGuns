@@ -1,3 +1,3 @@
 {
-    "values": ["makigun:reload","raycast:init"]
+    "values": ["makigun:reload","raycast:init","forward_spreader:core/load"]
 }
