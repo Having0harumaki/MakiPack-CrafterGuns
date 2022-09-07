@@ -117,7 +117,28 @@
                 [
                   [
                     {
-                      "text": "ヘッドショット倍率 ",
+                      "text": "反動 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍▍▍▍",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ],
+                [
+                  [
+                    {
+                      "text": "射程 ",
                       "color": "white",
                       "italic": false
                     },

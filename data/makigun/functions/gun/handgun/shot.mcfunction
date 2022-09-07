@@ -24,3 +24,5 @@
 #> 発砲クールタイム
     scoreboard players set @s makigun.cooltime 5
 
+#> 反動
+
