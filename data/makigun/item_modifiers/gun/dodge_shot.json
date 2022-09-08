@@ -1,0 +1,54 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        [
+          {
+            "text": "ドッジショット",
+            "color": "aqua",
+            "italic": false
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "(",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "score": {
+              "name": "ammo",
+              "objective": "makigun.temp"
+            },
+            "color": "gold",
+            "bold": true,
+            "italic": false
+          },
+          {
+            "text": "/12)",
+            "color": "gray",
+            "bold": true,
+            "italic": false
+          }
+        ]
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "mgtemp:"
+      },
+      "ops": [
+        {
+          "source": "damage",
+          "target": "ammo",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

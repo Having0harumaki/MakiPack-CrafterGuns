@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:127,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}],Charged:1b,CustomModelData:101,dodge_shot:1b,ammo:12}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "ドッジショット",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " (",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "12",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "/12)",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "[ 説明 ]",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "性能はハンドガンと同じ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "弾を12発まで装填することができる",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "[ 性能 ]",
+                  "color": "aqua",
+                  "italic": false
+                },
+                [
+                  [
+                    {
+                      "text": "発射速度 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍▍",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ],
+                [
+                  [
+                    {
+                      "text": "ダメージ ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍▍",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ],
+                [
+                  [
+                    {
+                      "text": "反動 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍▍▍▍",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ],
+                [
+                  [
+                    {
+                      "text": "射程 ",
+                      "color": "white",
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "▍▍▍",
+                      "color": "gray",
+                      "bold": true,
+                      "italic": false
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
