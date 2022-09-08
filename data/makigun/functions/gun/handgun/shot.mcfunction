@@ -8,6 +8,9 @@
 #> 向きを直す
     execute anchored eyes positioned ^ ^ ^ as @e[type=marker,tag=new] run tp ~ ~ ~
 
+#> 撃ち続けていたら弾を散らばらせる
+    execute unless entity @s[predicate=makigun:player_properties/sneak] if entity @s[scores={makigun.recoil_2=2..}] run execute as @e[type=marker,tag=new] at @s run function makigun:bullet/accuracy/1
+
 #> tag remove
     tag @e[type=marker,tag=new] remove new
 
@@ -30,6 +33,3 @@
 
 #> 反動
     # ハンドガンに反動はない
-
-#> 撃ち続けていたら弾を散らばらせる
-    execute unless entity @s[predicate=makigun:player_properties/sneak] if entity @s[scores={makigun.recoil_2=2..}] run
