@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:absorption",
+                    "duration": {
+                      "min": {
+                        "type": "minecraft:score",
+                        "target": {
+                          "type": "minecraft:fixed",
+                          "name": "min"
+                        },
+                        "score": "makigun.temp",
+                        "scale": 1
+                      },
+                      "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                          "type": "minecraft:fixed",
+                          "name": "max"
+                        },
+                        "score": "makigun.temp",
+                        "scale": 1
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

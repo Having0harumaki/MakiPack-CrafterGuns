@@ -13,7 +13,7 @@
       }
     },
     "rewards": {
-      "function": "makigun:gun/handgun/ammo"
+      "function": "makigun:gun/dodge_shot/ammo"
     }
   }
   

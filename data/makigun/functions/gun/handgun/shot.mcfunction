@@ -15,7 +15,7 @@
     tag @e[type=marker,tag=new] remove new
 
 #> 音を出す
-    playsound gun.handgun.shot record @a ~ ~ ~ 0.35 1
+    playsound gun.handgun.shot record @a ~ ~ ~ 0.3 1
 
 #> 銃から弾を減らす
     #> 現在の銃の弾を取得

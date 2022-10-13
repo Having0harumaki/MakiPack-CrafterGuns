@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:127,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}],Charged:1b,CustomModelData:101,dodge_shot:1b,ammo:12}"
+              "tag": "{HideFlags:127,ChargedProjectiles:[{id:\"minecraft:air\",Count:1b},{},{}],Charged:1b,CustomModelData:103,dodge_shot:1b,ammo:12}"
             },
             {
               "function": "minecraft:set_name",
